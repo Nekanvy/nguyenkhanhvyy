@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@700&display=swap');
+body{
+    scroll-behavior: smooth;
+	font-family: 'Raleway', sans-serif;
+}
+/*h1,h2,h3,ul,li{font-family: 'Kaisei Opti', serif;}*/
+#headerweb{
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+	background-color: white;
+	width: 100%;
+	z-index: 100;
+}
+header ul li{
+    display: inline;
+    padding: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    padding-right: 15px;
+}
+header ul li a:hover{
+	color: white;
+	background-color: black;
+	padding: 10px;
+	text-decoration: none;
+}
+header{
+	padding: 30px;
+}
+#headerweb img{
+    width: 200px;
+}
+.dautien{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 800px;
+	background-image: url("hinh.jpg")
+}
+.phan-2{
+	margin: 50px;
+}
+.phan-2 h1{
+	padding-bottom: 50px;
+}
+.phan-2 img{
+	height: 400px;
+}
+.service{
+    padding: 80px 0;
+}
+.service h1{
+    text-align: center;
+    margin-bottom: 76px;
+}
+.content{
+    padding: 30px 0;
+}
+.feature{
+    height: 285px;
+    overflow: hidden;
+}
+.feature img{
+    height: 100%;
+}
+.content p{
+    margin: 16px 0;
+}
+.about{
+    background-color: #f0f0f0;
+}
+.image-1{
+    height: 500px;
+    overflow: hidden;
+}
+.image-1 img{
+    height: 100%;
+}
+.content-about p{
+    margin: 8px 0 40px;
+}
+.content-about ul{
+    margin-left: 24px;
+    margin-bottom: 40px;
+}
+.content-about li{
+    margin: 16px 0;
+}
+.btn-green{ 
+    padding: 8px 32px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(44, 212, 145);
+}
+footer{
+	background-color: black;
+}
+.motcot ul{
+	list-style-type: none;
+}
+footer hr{
+	border: 0.5px solid white;
+}
+footer img{
+	width: 200px;
+}
+.btc img{
+	padding: 30px;
+}
+
+
+
